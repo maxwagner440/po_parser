@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  poparser:
+    image: poparser
+    build:
+      context: .
+      dockerfile: ./Dockerfile
