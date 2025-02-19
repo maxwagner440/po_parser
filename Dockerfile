@@ -24,6 +24,8 @@ RUN pip install -r requirements.txt
 # Install Python packages
 RUN pip install pymupdf pytesseract pillow
 
+RUN python -m spacy download en_core_web_sm
+
 # Set the Tesseract command path and TESSDATA_PREFIX
 ENV TESSDATA_PREFIX=/usr/share/tesseract-ocr/5/tessdata
 ENV PATH="/usr/bin/tesseract:${PATH}"
