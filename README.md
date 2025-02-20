@@ -16,3 +16,14 @@ DOCUMENTATION REFERENCES
 
 spaCy:
     Matcher: https://spacy.io/api/matcher#_title
+
+
+
+What works:
+    - coordinate parsing
+    - block and text parsing using fitz
+    - text searching (after parsing using spacy)
+
+What didn't work:
+    - Text parsing poor images
+    

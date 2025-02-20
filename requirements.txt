@@ -2,3 +2,6 @@ pymupdf==1.18.19
 pytesseract
 pillow
 spacy
+pdf2image
+numpy
+opencv-python-headless
